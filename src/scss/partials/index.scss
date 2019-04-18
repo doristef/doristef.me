@@ -1,0 +1,34 @@
+.myImg {
+    border: 3px solid lighten($dark, 5%) !important;
+}
+
+.container {
+    z-index: 2 !important;
+    &-dark {
+        z-index: 2 !important;
+        min-width: 100vw;
+        padding: 15px 0;
+        background-color: $dark;
+    }
+
+    &-color {
+        position: relative;
+        z-index: 2 !important;
+        min-width: 100vw;
+        padding: 75px 0;
+        background-color: $color2;
+        -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 74%, 0 97%);
+        clip-path: polygon(0 23%, 100% 0%, 100% 74%, 0 97%);
+        
+        &-content {
+            margin: 100px 0 50px 0;
+            color: $dark !important;
+
+            &_heading {
+                color: $dark !important;
+            }
+        }
+    }
+
+
+  }

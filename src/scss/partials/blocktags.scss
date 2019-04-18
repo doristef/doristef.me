@@ -1,0 +1,47 @@
+//** GENERAL TAGS **//
+
+body {
+    font-family: $bodyFont;
+    font-weight: $bodyWeight !important;
+    font-style: normal;
+    font-size: $bodyFontSize;
+    color: $white;
+    background: $dark;
+    line-height: $lineHeight;
+}
+
+//** HEADINGS **//
+
+@each $heading, $size in $headings {
+    #{$heading}, .#{$heading} {
+        @include fontRem( $size );
+        font-family: $headingFont;
+        color: $white;
+        font-weight: $headingWeight;
+    }
+}
+
+h1, #h1, .h1 {
+    font-family: $h1Font;
+    font-weight: $h1Weight;
+    @include fontRem(42px);
+    color: $white;
+}
+//** LINK **//
+a {
+    &:link { color: $white; }
+    
+    &:visited {
+        color: $white;
+        text-decoration: none;
+    }
+    
+    &:active {
+        color: darken($white, 10%);
+        text-decoration: underline;
+    }
+    
+    &:hover {
+        color: $color2;
+    }
+}
