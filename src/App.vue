@@ -1,24 +1,53 @@
 <template>
   <b-container fluid id="app">
     <Navigation :menu='menu' :menuSocial='menuSocial' />
-    <Home :menuSocial='menuSocial' :aboutMe='aboutMe' />
+    <router-view :menu='menu' :menuSocial='menuSocial' :aboutMe='aboutMe'></router-view>
   </b-container>
 </template>
 
 <script>
+/* Import Vue Router and Components */
+import VueRouter from 'vue-router';
 import Navigation from './components/Navigation.vue';
 import Home from './components/Home.vue';
+import Projects from './components/Projects.vue';
 
+/* Router Config */
+const router = new VueRouter({
+  mode: 'history',
+  base: __dirname,
+  routes: [
+    {
+      path: '/',
+      name: 'Home',
+      component: Home,
+    },
+    {
+      path: '/Projects',
+      name: 'Projects',
+      component: Projects,
+      template: "<Projects />"
+    }
+  ]
+})
+
+/* APP - data */
 export default {
-  name: 'app',
+  name: 'App',
+  router,
   components: {
-    Navigation,
-    Home
+    Navigation
   },
+
   data() {
     return {
       /* Items for navigation menu */
-        menu: ['Home', 'Projects', 'About me', 'Social'],
+        menu: {
+          home : ['doristef.me', '/'],
+          projects :  ['Projects', '/projects'],
+          school :  ['School', '/school'],
+          aboutme : ['More of me', '/me']
+        },
       /* Items for social links */
         menuSocial: {
           codepen : ['Codepen', 'https://codepen.io/doristef87/'], 

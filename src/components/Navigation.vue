@@ -1,23 +1,23 @@
 <template>
 <div class="[ navigation-container ]">
     <div role="navigation" :class="['[ slidebar ][ d-flex flex-column ]', { isOpen, '' : isOpen }, { '' : !isOpen }]">
-        
+<!-- Navigation - Menu -->
             <b-nav vertical class="[ flex-column ][ w-100 mb-5 mb-lg-0 ]">
-                <b-nav-item v-for="(item, key) in this.menu" :key="key"> 
-                    <b-nav-text class="[ text-navigation ]">{{item}}</b-nav-text>
+                <b-nav-item v-for="(item, key) in this.menu" :key="key" :to='item[1]'> 
+                    <b-nav-text class="[ text-navigation ]"  @click="toggle">{{item[0]}}</b-nav-text>
                 </b-nav-item>
             </b-nav>
 
             <b-nav class="[ w-100 ][ mt-5 mt-lg-auto pb-lg-4 ][ text-center ]">
 
-                <!-- Social Links -->
+<!-- Navigation - Social Links -->
                 <b-nav-item v-for="(item, key) in this.menuSocial" :key="key" :href='item[1]' >
                     <font-awesome-icon :icon="{ prefix: 'fab', iconName: String(deCamelCase(key)) }" size="2x" class="[ text-navigation-icon ]" /> 
                 </b-nav-item>
 
             </b-nav>
     </div>
-
+<!-- Navigation - Arrow Button -->
     <div :class="['[ animated fadeIn ]']">
          <font-awesome-icon :icon="slidebarIcon" 
                             size="3x" 
@@ -35,10 +35,12 @@
 </template>
 
 <script>
+/* Imports */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
+/* SidebarNav */
 export default {
-    name: "sidebar-nav",
+    name: "sidebarNav",
     props: ['menu', 'menuSocial'],
     components: { FontAwesomeIcon },
     data: () => ({

@@ -1,11 +1,11 @@
 <template>
   <div>
+<!-- Section/Container - About Me -->
   <b-container class="[ pt-5 ][ animated fadeIn fast ][ container-dark container-dark-top ]">
     <b-row>
-      
+
       <b-container>
         <h1 style="font-size: 4rem;" class="[ text-center ][ m-2 p-2 m-lg-5 p-lg-5 ]">-- Work in Progress --</h1>
-
           <div class="[ text-center text-lg-left ]">
             <b-img v-bind="myImage" :src='aboutMe.myPhoto' alt="Halld&#243;r Valur Stef&aacute;nsson" />
             <h1>{{ aboutMe.fullName }}</h1>
@@ -24,6 +24,8 @@
       </b-container>
     </b-row>
   </b-container>
+
+<!-- Section/Container - Education -->
   <b-container class="[ pt-5 ][ animated fadeIn faster delay-1s ][ container-color ]">
     <b-row class="[ container-color-content ][ ml-3 ]">
       <b-container>
@@ -52,6 +54,7 @@
       </b-container>
     </b-row>
   </b-container>
+<!-- Section/Container - Finde Me  -->
   <b-container class="[ pt-5 ][ animated fadeIn fast ][ container-dark container-dark-middle ]">
     <b-row>
       <b-container class="[ mb-5 ]">
@@ -76,8 +79,10 @@
 </template>
 
 <script>
+/* Imports */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome"; 
 
+/* HOME */
 export default {
   name: 'Home',
   props: {
