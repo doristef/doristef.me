@@ -48,7 +48,7 @@
 
         <b-media>
           <div class="[ text-center text-lg-left ]">
-            <h1>You can find me on</h1>
+            <h1>Find me at</h1>
           </div>
           <div class="[ ml-4 mr-2 mt-4 ]">
             <div>
