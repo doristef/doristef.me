@@ -5,7 +5,8 @@
         min-width: 100vw;
         padding: 15px 0;
         background-color: $dark;
-        & a {
+
+        &-link a {
             &:link { 
                 position: relative;
                 color: $white; 
@@ -54,10 +55,12 @@
         background-color: $color2;
         -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 74%, 0 97%);
         clip-path: polygon(0 23%, 100% 0%, 100% 74%, 0 97%);
-        & h1, h2, h3, h4, h5, h6 {
+
+        & h1, h2, h3, h4, h5, h6, p {
             color: $dark !important;
         }
-        & a {
+
+        &-link a {
             &:link { 
                 position: relative;
                 color: $dark; 
@@ -89,7 +92,6 @@
             &:hover {
                 color: $white2;
                 text-decoration: none;
-        
         
                 &::after{
                     opacity: 0.5;

@@ -3,8 +3,8 @@
     <div role="navigation" :class="['[ slidebar ][ d-flex flex-column ]', { isOpen, '' : isOpen }, { '' : !isOpen }]">
 <!-- Navigation - Menu -->
             <b-nav vertical class="[ flex-column ][ w-100 mb-5 mb-lg-0 ]">
-                <b-nav-item v-for="(item, key) in this.menu" :key="key" :to='item[1]'> 
-                    <b-nav-text class="[ text-navigation ]"  @click="toggle">{{item[0]}}</b-nav-text>
+                <b-nav-item v-for="(item, key) in this.menu" :key="key" :to='item[1]' class="[ text-navigation ]"  exact-active-class="[ text-navigation-active ]"> 
+                    <b-nav-text @click="toggle">{{item[0]}}</b-nav-text>
                 </b-nav-item>
             </b-nav>
 

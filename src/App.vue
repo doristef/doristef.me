@@ -11,6 +11,7 @@ import VueRouter from 'vue-router';
 import Navigation from './components/Navigation.vue';
 import Home from './components/Home.vue';
 import Projects from './components/Projects.vue';
+import Me from './components/Me.vue';
 
 /* Router Config */
 const router = new VueRouter({
@@ -23,10 +24,16 @@ const router = new VueRouter({
       component: Home,
     },
     {
-      path: '/Projects',
+      path: '/projects',
       name: 'Projects',
       component: Projects,
       template: "<Projects />"
+    },
+    {
+      path: '/me',
+      name: 'MoreMe',
+      component: Me,
+      template: "<Me />"
     }
   ]
 })
@@ -45,7 +52,6 @@ export default {
         menu: {
           home : ['doristef.me', '/'],
           projects :  ['Projects', '/projects'],
-          school :  ['School', '/school'],
           aboutme : ['More of me', '/me']
         },
       /* Items for social links */

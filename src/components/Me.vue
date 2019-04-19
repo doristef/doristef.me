@@ -6,48 +6,36 @@
 
       <b-container>
           <div class="[ text-center text-lg-left ]">
-            <b-img v-bind="myImage" :src='aboutMe.myPhoto' alt="Halld&#243;r Valur Stef&aacute;nsson" />
             <h1>{{ aboutMe.fullName }}</h1>
           </div>
                       
           <div class="[ ml-4 mr-2 mt-4 ]">
-            <h2>{{ aboutMe.title }}</h2>
-            <p>
-              {{ aboutMe.paragraph1 }}
-            </p>
-            <p>
-              {{ aboutMe.paragraph2 }}
-            </p>
+            <h2>Coming Soon...</h2>
           </div>
 
       </b-container>
     </b-row>
   </b-container>
 
-<!-- Section/Container - Education -->
+<!-- Section/Container - Something -->
   <b-container class="[ pt-5 ][ animated fadeIn faster delay-1s ][ container-color ]">
     <b-row class="[ container-color-content ][ ml-3 ]">
       <b-container>
 
           <div class="[ text-center text-lg-left ]">
-            <h1 class="[ container-color-content_heading ]">Education</h1>
+            <h1 class="[ container-color-content_heading ]">Something fun here</h1>
           </div>
 
           <div class="[ ml-4 mr-2 mt-4 ]">
-            <!-- School 1 detail -->
+            <!-- Something Fun -->
             <h3 class="[ container-color-content_heading ]">
-              Noroff - School of Technology and Digital Media</h3>
+              Coming Soon...</h3>
 
-              <b class="[ pl-3 ]">Frontend Developer </b>
+              <b class="[ pl-3 ]">Coming Soon... </b>
               <p class="[ pl-3 ]">
-                2 years program, level 5 vocational ....
+                Coming Soon...
               </p>
-            <!-- School 2 detail -->
-            <h3 class="[ container-color-content_heading ]">Verkmenntask&#243;linn &aacute; Akureyri</h3>
-              <b class="[ pl-3 ]">Electrician Journeyman</b>
-              <p class="[ pl-3 ]">
-                3.5 years study, finished in februar 2010.
-              </p>
+
           </div>
 
       </b-container>
@@ -81,24 +69,19 @@
 /* Imports */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome"; 
 
-/* HOME */
+/* MORE ME */
 export default {
-  name: 'Home',
+  name: 'MoreMe',
   props: {
     menuSocial: Object,
     aboutMe: Object
   },
-
   components: { FontAwesomeIcon },
   methods: {
     deCamelCase(key) {
         return key.replace(/([A-Z])/g, (g) => `-${g[0].toLowerCase()}`);
     },
   },
-  data() {
-      return {
-        myImage: { blank: false, blankColor: '#eee', width: 150, height: 150, rounded: 'circle', class: '[ myImg ][ mt-3 mx-auto mx-lg-3 ][ float-lg-left ]'}
-      }
-  }
+  // data() { return {} }
 }
 </script>
