@@ -1,0 +1,108 @@
+.container {
+    z-index: 2 !important;
+    &-dark {
+        z-index: 2 !important;
+        min-width: 100vw;
+        padding: 15px 0;
+        background-color: $dark;
+        & a {
+            &:link { 
+                position: relative;
+                color: $white; 
+                transition: all .3s ease;
+        
+                &::after{
+                    content: "";
+                    width: 100%;
+                    height: 1px;
+                    background-color: $color2;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    opacity: 0;
+                    transition: all .3s ease;
+                }
+            }
+            
+            &:visited {
+                color: $white;
+                text-decoration: none;
+            }
+            
+            &:active {
+                color: darken($white, 10%);
+                text-decoration: underline;
+            }
+            
+            &:hover {
+                color: $color2;
+                text-decoration: none;
+        
+        
+                &::after{
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
+    &-color {
+        position: relative;
+        z-index: 2 !important;
+        min-width: 100vw;
+        padding: 75px 0;
+        background-color: $color2;
+        -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 74%, 0 97%);
+        clip-path: polygon(0 23%, 100% 0%, 100% 74%, 0 97%);
+        & h1, h2, h3, h4, h5, h6 {
+            color: $dark !important;
+        }
+        & a {
+            &:link { 
+                position: relative;
+                color: $dark; 
+                transition: all .3s ease;
+        
+                &::after{
+                    content: "";
+                    width: 100%;
+                    height: 1px;
+                    background-color: $white2;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    opacity: 0;
+                    transition: all .3s ease;
+                }
+            }
+            
+            &:visited {
+                color: $dark;
+                text-decoration: none;
+            }
+            
+            &:active {
+                color: darken($dark, 10%);
+                text-decoration: underline;
+            }
+            
+            &:hover {
+                color: $white2;
+                text-decoration: none;
+        
+        
+                &::after{
+                    opacity: 0.5;
+                }
+            }
+        }
+        &-content {
+            margin: 100px 0 50px 0;
+            color: $dark !important;
+
+            &_heading {
+                color: $dark !important;
+            }
+        }
+    }
+  }
