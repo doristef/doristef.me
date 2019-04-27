@@ -9,13 +9,14 @@
             <h1>About me</h1>
           </div>
                       
-          <div class="[ ml-4 mr-2 mt-4 ]">
+          <div class="[ mx-1 ml-lg-4 mr-lg-2 mt-4 ]">
             <!-- Me -->
+            <p class="[ mx-3 mx-lg-0 my-2 my-lg-0 ]">
               I was born in <strong>Akureyri, Iceland.</strong> <br />
               And I lived there until late <b>2013</b> when I was tipped off about exciting electrician <strong> work in Norway. </strong> <br />
               I started by commuting to work but soon got bored of that so I moved to <strong> Hamar </strong> with my family in <b>2015</b>. <br />
               And in <b>2016</b> my wife started school at UiO so we moved to <strong> Oslo. </strong>
-              
+            </p>
 
           </div>
 
@@ -24,15 +25,15 @@
   </b-container>
 
 <!-- Section/Container - Something -->
-  <b-container class="[ pt-5 ][ animated fadeIn faster delay-1s ][ container-color ]">
-    <b-row class="[ container-color-content ][ ml-3 ]">
-      <b-container>
+  <b-container class="[ animated fadeIn faster delay-1s ][ container-color ]">
+    <b-row class="[ container-color-content ][ ml-3 py-5 ]">
+      <b-container class="[ py-5 ]">
 
-          <div class="[ text-center text-lg-left ][ pt-4 ]">
-            <h1 class="[ container-color-content_heading ]">What are my hobbies, you ask?</h1>
+          <div class="[ text-center text-lg-left ][ pt-5 ]">
+            <h1 class="[ container-color-content_heading ]">My hobbies, you ask?</h1>
           </div>
 
-          <div class="[ m-4 py-2 ]">
+          <div class="[ m-4 py-2 pb-5 ]">
             <!-- Craft Beer -->
             <h3 class="[ container-color-content_heading ]">
               Craft Beer</h3>
@@ -59,7 +60,7 @@
            <!-- Music -->
             <h3 class="[ container-color-content_heading ]">
               Music</h3>
-              <p class="[ pb-3 ]">
+              <p class="[ pb-5 ]">
                   I mean who doesn't like music?<br />
                   I know at least that I like to listen to <strong> all kinds </strong> of music, and I love checking out <strong> concerts </strong> every now and then.
               </p>
@@ -68,7 +69,7 @@
       </b-container>
     </b-row>
   </b-container>
-<!-- Section/Container - Finde Me  -->
+<!-- Section/Container - Find Me  -->
   <b-container class="[ pt-5 ][ animated fadeIn fast ][ container-dark container-dark-middle ]">
     <b-row>
       <b-container class="[ mb-5 ]">

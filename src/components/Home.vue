@@ -13,10 +13,10 @@
         </div>
 
         <div class="[ col-12 col-md-8 col-lg-10 ]">
-          <div class="[ ml-4 mr-2 mt-4 ]">
+          <div class="[ ml-2 ml-lg-4 mr-2 mt-4 ][ text-center text-md-left ]">
             <h1 v-if="aboutMe.fullName">{{ aboutMe.fullName }}</h1>
               
-            <div class="[ ml-3 mb-2 ]">
+            <div class="[ ml-1 ml-lg-3 mb-2 ][ text-left ]">
               <h3 v-if="aboutMe.title">{{ aboutMe.title }}</h3>
               <p v-if="aboutMe.paragraph1" v-html="aboutMe.paragraph1">
               </p>
@@ -60,7 +60,7 @@
       </b-container>
     </b-row>
   </b-container>
-<!-- Section/Container - Finde Me  -->
+<!-- Section/Container - Find Me  -->
   <b-container class="[ pt-5 ][ animated fadeIn fast ][ container-dark container-dark-middle ]">
     <b-row>
       <b-container class="[ mb-5 ]">

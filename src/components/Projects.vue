@@ -59,10 +59,10 @@
 
 <!-- Projects - Noroff year 2 -->               
           <div class="[ ml-4 mr-2 mt-4 ][ container-color-content ]">
-              <h2>Norofff - 2nd Year</h2>
-              <div class="[ pl-2 pl-lg-5 ]">
+              <h2 class="[ pt-5 ]">Norofff - 2nd Year</h2>
+              <div class="[ pl-2 pl-lg-5 pb-5 ]">
                     <h4>Third Semester, 2018: </h4>
-                    <ul class="[ container-color-link ][ list-unstyled ]">
+                    <ul class="[ container-color-link ][ list-unstyled ][ pb-5 ]">
                         <b-media tag="li" class="m-2 ml-4">
                             <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
                             <a  href="http://doristef.me/HomeDecor/" alt="Home Decor, Website, Semester 3, 2018">Home Decor, Website </a>
