@@ -49,6 +49,9 @@
         transition: all 0.6s ease-in-out;
         &:hover {
             color: #2675d1;
+            @media only screen and (max-device-width: $medScreen) {
+                color: $color2;
+            }
         }
     }
 }
