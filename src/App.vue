@@ -35,8 +35,12 @@ const router = new VueRouter({
       component: Me,
       template: "<Me />"
     }
-  ]
-})
+  ],
+  // eslint-disable-next-line
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 };
+  }
+});
 
 /* APP - data */
 export default {
