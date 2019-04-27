@@ -16,9 +16,9 @@ Vue.use(BootstrapVue);
 
 /* FontAwesome - FortAwesome  */
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faChevronCircleRight, faChevronCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronCircleRight, faChevronCircleLeft, faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub, faStackOverflow, faCodepen} from "@fortawesome/free-brands-svg-icons";
-library.add(faLinkedin, faGithub, faStackOverflow, faCodepen, faChevronCircleRight, faChevronCircleLeft);
+library.add(faLinkedin, faGithub, faStackOverflow, faCodepen, faChevronCircleRight, faChevronCircleLeft, faAngleDoubleRight);
 
 /* Mount */
 new Vue({

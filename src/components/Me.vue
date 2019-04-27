@@ -6,11 +6,17 @@
 
       <b-container>
           <div class="[ text-center text-lg-left ]">
-            <h1>{{ aboutMe.fullName }}</h1>
+            <h1>About me</h1>
           </div>
                       
           <div class="[ ml-4 mr-2 mt-4 ]">
-            <h2>Coming Soon...</h2>
+            <!-- Me -->
+              I was born in <strong>Akureyri, Iceland.</strong> <br />
+              And I lived there until late <b>2013</b> when I was tipped off about exciting electrician <strong> work in Norway. </strong> <br />
+              I started by commuting to work but soon got bored of that so I moved to <strong> Hamar </strong> with my family in <b>2015</b>. <br />
+              And in <b>2016</b> my wife started school at UiO so we moved to <strong> Oslo. </strong>
+              
+
           </div>
 
       </b-container>
@@ -22,20 +28,41 @@
     <b-row class="[ container-color-content ][ ml-3 ]">
       <b-container>
 
-          <div class="[ text-center text-lg-left ]">
-            <h1 class="[ container-color-content_heading ]">Something fun here</h1>
+          <div class="[ text-center text-lg-left ][ pt-4 ]">
+            <h1 class="[ container-color-content_heading ]">What are my hobbies, you ask?</h1>
           </div>
 
-          <div class="[ ml-4 mr-2 mt-4 ]">
-            <!-- Something Fun -->
+          <div class="[ m-4 py-2 ]">
+            <!-- Craft Beer -->
             <h3 class="[ container-color-content_heading ]">
-              Coming Soon...</h3>
-
-              <b class="[ pl-3 ]">Coming Soon... </b>
-              <p class="[ pl-3 ]">
-                Coming Soon...
+              Craft Beer</h3>
+              <p class="[ container-color-link ]">
+                My absolute favorite thing in the world, Craft Beer! <br />
+                I love tasting new and exciting brews, I do set up tasting sessions for my friends and also at work.<br />
+                I'm an <strong> Equity Punk </strong>, which means I have shares in <strong> BrewDog </strong>. <br /><br />
+                <a href="http://efp.brewdog.com/equityforpunks/" title="Equity for Punks by BrewDog">Read more about <strong> Equity for Punks? </strong> </a><br />
+                If you are interested feel free to use my referral code, <b>R593156</b>
               </p>
-
+           <!-- Computers -->
+            <h3 class="[ container-color-content_heading ]">
+              Computer Stuff</h3>
+              <p>
+                Maybe you guessed this one? <br />
+                Yes, I like sitting around in my computer reading about <strong>new tech, </strong> <strong>programming </strong> a bit, playing around with <strong>illustrator. </strong>
+              </p>
+           <!-- Health -->
+            <h3 class="[ container-color-content_heading ]">
+              Exercise</h3>
+              <p>
+                  I enjoy exercise such as <strong> crossfit, </strong> <strong> weight-lifting </strong> and <strong> jogging </strong> out in the nature, Norway is the perfect place for that!
+              </p>
+           <!-- Music -->
+            <h3 class="[ container-color-content_heading ]">
+              Music</h3>
+              <p class="[ pb-3 ]">
+                  I mean who doesn't like music?<br />
+                  I know at least that I like to listen to <strong> all kinds </strong> of music, and I love checking out <strong> concerts </strong> every now and then.
+              </p>
           </div>
 
       </b-container>

@@ -1,7 +1,7 @@
 <template>
   <b-container fluid id="app">
     <Navigation :menu='menu' :menuSocial='menuSocial' />
-    <router-view :menu='menu' :menuSocial='menuSocial' :aboutMe='aboutMe'></router-view>
+    <router-view :menuSocial='menuSocial' :aboutMe='aboutMe'></router-view>
   </b-container>
 </template>
 
@@ -65,8 +65,7 @@ export default {
           myPhoto: 'http://doristef.me/myPhoto.jpg',
           fullName: 'Halldór Valur Stefánsson',
           title: 'Frontend Developer',
-          paragraph1 : 'Hi, I\'m Halldór and I\'m currently studying Frontend-Development at Noroff, School of Technology and Digital Media.',
-          paragraph2 : 'This is my webpage and it\'s thought as a Portfolio of my work. '
+          paragraph1 : 'Hi there, <br /> I\'m Halldór and I\'m studying Frontend-Development at Noroff, <small><i>School of Technology and Digital Media.</i></small>',
         }
     }
   }
