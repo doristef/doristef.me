@@ -12,10 +12,10 @@
           <div class="[ mx-1 ml-lg-4 mr-lg-2 mt-4 ]">
             <!-- Me -->
             <p class="[ mx-3 mx-lg-0 my-2 my-lg-0 ]">
-              I was born in <strong>Akureyri, Iceland.</strong> <br />
-              And I lived there until late <b>2013</b> when I was tipped off about exciting electrician <strong> work in Norway. </strong> <br />
-              I started by commuting to work but soon got bored of that so I moved to <strong> Hamar </strong> with my family in <b>2015</b>. <br />
-              And in <b>2016</b> my wife started school at UiO so we moved to <strong> Oslo. </strong>
+              I was born in <strong>Akureyri, Iceland.</strong>
+              I lived there until late <b>2013</b> when I was tipped off about an exciting <strong> job in Norway. </strong> <br />
+              I started off commuting to work but soon I got bored of that, so I moved to <strong> Hamar </strong> with my family in <b>2015</b>. <br />
+              In <b>2016</b> my wife started studying at UiO, so we moved to down <strong> Oslo. </strong>
             </p>
 
           </div>
@@ -39,8 +39,8 @@
               Craft Beer</h3>
               <p class="[ container-color-link ]">
                 My absolute favorite thing in the world, Craft Beer! <br />
-                I love tasting new and exciting brews, I do set up tasting sessions for my friends and also at work.<br />
-                I'm an <strong> Equity Punk </strong>, which means I have shares in <strong> BrewDog </strong>. <br /><br />
+                I love tasting new and exciting brews, I often set up tasting sessions for my friends and collegues from work.<br />
+                I'm an <strong> Equity Punk </strong>, which means I own shares in <strong> BrewDog </strong>. <br /><br />
                 <a href="http://efp.brewdog.com/equityforpunks/" title="Equity for Punks by BrewDog">Read more about <strong> Equity for Punks? </strong> </a><br />
                 If you are interested feel free to use my referral code, <b>R593156</b>
               </p>
@@ -49,7 +49,7 @@
               Computer Stuff</h3>
               <p>
                 Maybe you guessed this one? <br />
-                Yes, I like sitting around in my computer reading about <strong>new tech, </strong> <strong>programming </strong> a bit, playing around with <strong>illustrator. </strong>
+                Yes, I like sitting around and read about <strong>new tech, </strong> <strong>programming</strong>, experiment with <strong>illustrator.</strong>
               </p>
            <!-- Health -->
             <h3 class="[ container-color-content_heading ]">
@@ -62,7 +62,7 @@
               Music</h3>
               <p class="[ pb-5 ]">
                   I mean who doesn't like music?<br />
-                  I know at least that I like to listen to <strong> all kinds </strong> of music, and I love checking out <strong> concerts </strong> every now and then.
+                  At least I like to listen to <strong> all kinds </strong> of music, and I love attending <strong> concerts </strong> every now and then.
               </p>
           </div>
 
