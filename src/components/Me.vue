@@ -110,6 +110,5 @@ export default {
         return key.replace(/([A-Z])/g, (g) => `-${g[0].toLowerCase()}`);
     },
   },
-  // data() { return {} }
 }
 </script>

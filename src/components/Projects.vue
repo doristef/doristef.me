@@ -133,13 +133,6 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 export default {
     
   name: 'Projects',
-  props: {},
   components: { FontAwesomeIcon },
-  methods: {},
-  data() {
-      return {
-        
-      }
-  }
 }
 </script>

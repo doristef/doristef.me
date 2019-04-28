@@ -65,6 +65,7 @@ export default {
           stackOverflow : ['Stack-Overflow', 'https://stackoverflow.com/u/10667067/'], 
           github : ['Github', 'https://github.com/doristef']
         },
+      /* About Me */
         aboutMe: {
           myPhoto: 'http://doristef.me/myPhoto.jpg',
           fullName: 'Halldór Valur Stefánsson',
