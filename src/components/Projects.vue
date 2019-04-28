@@ -64,7 +64,7 @@
 
 <!-- Projects - Noroff year 2 -->               
           <div class="[ ml-4 mr-2 mt-4 ][ container-color-content ]">
-              <h2 class="[ pt-5 ]">Norofff - 2nd Year</h2>
+              <h2 class="[ pt-5 ]">Noroff - 2nd Year</h2>
               <div class="[ pl-2 pl-lg-5 pb-5 ]">
                     <h4>Third Semester, 2018: </h4>
                     <ul class="[ container-color-link ][ list-unstyled ][ pb-5 ]">

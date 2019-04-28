@@ -1,14 +1,15 @@
 // FONT FAMILY 
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Teko:400:700|Kalam:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400:700:900|Teko:400:700|Kalam:700');
 
 //*** FONT - IMPORT ***/
 
 $bodyFont : 'Lato',sans-serif;
-$bodyWeight : 300;
+$bodyWeight : 400;
+$bodyBoldWeight: 900;
 $h1Font : 'Kalam', cursive;
 $h1Weight: 700;
 $headingFont : 'Lato', cursive;
-$headingWeight: 700;
+$headingWeight: 900;
 $navHeadingFont : 'Teko', sans-serif;
 $navHeadingWeight: 700;
 $navHeadingSize: 3.5em;
