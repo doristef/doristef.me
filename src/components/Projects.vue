@@ -10,7 +10,7 @@
           </div>
 <!-- Projects - Noroff year 1 -->                     
           <div class="[ ml-4 mr-2 mt-4 ]">
-              <h2>Norofff - 1st Year</h2>
+              <h2>Noroff - 1st Year</h2>
               <div class="[ pl-2 pl-lg-5 ]">
                 <h4>First Semester, 2017: </h4>
                 <ul class="[ container-dark-link ][ list-unstyled ]">
