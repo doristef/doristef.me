@@ -10,25 +10,8 @@
           </div>
 <!-- Projects - Noroff year 1 -->                     
           <div class="[ ml-4 mr-2 mt-4 ]">
-              <h2>Noroff - 1st Year</h2>
+              <h2>2018, Noroff</h2>
               <div class="[ pl-2 pl-lg-5 ]">
-                <h4>First Semester, 2017: </h4>
-                <ul class="[ container-dark-link ][ list-unstyled ]">
-                    <b-media tag="li" class="[ m-2 ml-4 ]">
-                        <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                        <a href="http://doristef.me/semester2/Portfolio1/RedPepperPizza/RedPepperPizza_OLD.pdf" target="_blank" alt="First Semester MoodBoard, 2017"><b>PDF:</b> MoodBoard</a>
-                    </b-media>
-                    <b-media tag="li" class="[ m-2 ml-4 ]">
-                        <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                        <a href="http://doristef.me/semester2/Portfolio1/recycle/OLD/" target="_blank" alt="First Semester, Re-Cycle Website, 2017">Website, Re-Cycle</a>
-                    </b-media>
-                    <b-media tag="li" class="[ m-2 ml-4 ]">
-                        <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                        <a href="http://doristef.me/semester1/SemesterProject2017/" target="_blank" alt="First Semester Project, 2017">Semester Project</a>
-                    </b-media>
-                </ul>
-                
-                <h4>Second Semester, 2018: </h4>
                 <ul class="[ container-dark-link ][ list-unstyled ]">
                     <b-media tag="li" class="[ m-2 ml-4 ]">
                         <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
@@ -43,12 +26,12 @@
                         <a href="http://doristef.me/semester2/Portfolio1/recycle/" target="_blank" alt="Remake, Re-Cycle Website, Semester 2, 2018"><b>Remake</b>, Re-Cycle Website</a>
                     </b-media>
                     <b-media tag="li" class="[ m-2 ml-4 ]">
-                            <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                            <a href="http://doristef.me/semester2/JavaScript1/CA/" target="_blank" alt="Card Game from API ORIGINAL, Semester 2, 2018">Card Game, <b>The Original</b>, Website</a>
-                        </b-media>
+                        <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
+                        <a href="http://doristef.me/HomeDecor3/shop.html" target="_blank" alt="Home Decor 3, Website / Shop Section, Semester 3, 2018">Home Decor, Website / Shop Section v2</a>
+                    </b-media>
                     <b-media tag="li" class="[ m-2 ml-4 ]">
                         <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                        <a href="http://doristef.me/spacex/" target="_blank" alt="Second Semester, Project Ecxam, Semester 2, 2018">SpaceX Website, Project Exam</a>
+                        <a href="http://doristef.me/Semester_Project2" target="_blank" alt="Shields &amp; Snakes - BoardGame, Semester Project, Semester 3, 2018">Shields &amp; Snakes - JavaScript BoardGame, Semester Project</a>
                     </b-media>
 
                 </ul>
@@ -64,41 +47,12 @@
 
 <!-- Projects - Noroff year 2 -->               
           <div class="[ ml-4 mr-2 mt-4 ][ container-color-content ]">
-              <h2 class="[ pt-5 ]">Noroff - 2nd Year</h2>
-              <div class="[ pl-2 pl-lg-5 pb-5 ]">
-                    <h4>Third Semester, 2018: </h4>
-                    <ul class="[ container-color-link ][ list-unstyled ][ pb-5 ]">
-                        <b-media tag="li" class="[ m-2 ml-4 ]">
-                            <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                            <a href="http://doristef.me/semester4/portfolio2/old.pdf" target="_blank" alt="Website Style Guide, Semester 3, 2019"><b>PDF:</b> Website Style Guide</a>
-                        </b-media>
-                        <b-media tag="li" class="[ m-2 ml-4 ]">
-                            <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                            <a  href="http://doristef.me/HomeDecor/" target="_blank" alt="Home Decor, Website, Semester 3, 2018">Home Decor, Website </a>
-                        </b-media>
-                        <b-media tag="li" class="[ m-2 ml-4 ]">
-                            <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                            <a href="http://doristef.me/HomeDecor2/shop.html" target="_blank" alt="Home Decor 2, Website / Shop Section, Semester 3, 2018">Home Decor, Website / Shop Section </a>
-                        </b-media>
-                        <b-media tag="li" class="[ m-2 ml-4 ]">
-                            <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                            <a href="http://doristef.me/HomeDecor3/shop.html" target="_blank" alt="Home Decor 3, Website / Shop Section, Semester 3, 2018">Home Decor, Website / Shop Section v2</a>
-                        </b-media>
-                        <b-media tag="li" class="[ m-2 ml-4 ]">
-                            <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                            <a href="http://doristef.me/Semester_Project2" target="_blank" alt="Shields &amp; Snakes - BoardGame, Semester Project, Semester 3, 2018">Shields &amp; Snakes - JavaScript BoardGame, Semester Project</a>
-                        </b-media>
-                    </ul>
-                    
-                    <h4>Fourth Semester, 2019: </h4>
+              <h2 class="[ pt-5 ]">2019, Noroff</h2>
+              <div class="[ pl-2 pl-lg-5 ]">
                     <ul class="[ container-color-link ][ list-unstyled ]">
                         <b-media tag="li" class="[ m-2 ml-4 ]">
                             <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
                             <a href="http://doristef.me/semester4/noroff-reactapp/#/" target="_blank" alt="Using Rick&amp;Morty API, Semester 4, 2019">Rick &amp; Morty API - Character Cards, React </a>
-                        </b-media>
-                        <b-media tag="li" class="[ m-2 ml-4 ]">
-                            <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                            <a href="http://doristef.me/semester4/noroff-vueapp/" target="_blank" alt="Using RecipePuppy API, Semester 4, 2019">RecipePuppy API, Vue </a>
                         </b-media>
                         <b-media tag="li" class="[ m-2 ml-4 ]">
                             <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
@@ -116,7 +70,10 @@
                             <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
                             <a href="http://doristef.me/semester4/portfolio2/redo.pdf" target="_blank" alt="Website Style Guide, Semester 4, 2019"><b>PDF:</b> Website Style Guide 2.0, <b>Remake</b> from 3rd semester</a>
                         </b-media>
-
+                        <b-media tag="li" class="[ m-2 ml-4 ]">
+                            <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
+                            <a href="http://doristef.me/semester4/FinalProject/" target="_blank" alt="Final Project, Semester 4, 2019"><b>Final Project, Vue  --> Username: doristef, Password: 1234 </b></a>
+                        </b-media>
                     </ul>
                 </div>
           </div>

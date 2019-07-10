@@ -15,7 +15,7 @@
               I was born in <strong>Akureyri, Iceland.</strong>
               I lived there until late <b>2013</b> when I was tipped off about an exciting <strong> job in Norway. </strong> <br />
               I started off commuting to work but soon I got bored of that, so I moved to <strong> Hamar </strong> with my family in <b>2015</b>. <br />
-              In <b>2016</b> my wife started studying at UiO, so we moved to down <strong> Oslo. </strong>
+              In <b>2016</b> my wife started studying at UiO, so we moved to <strong> Oslo. </strong>
             </p>
 
           </div>
@@ -40,9 +40,7 @@
               <p class="[ container-color-link ]">
                 My absolute favorite thing in the world, Craft Beer! <br />
                 I love tasting new and exciting brews, I often set up tasting sessions for my friends and collegues from work.<br />
-                I'm an <strong> Equity Punk </strong>, which means I own shares in <strong> BrewDog </strong>. <br /><br />
-                <a href="http://efp.brewdog.com/equityforpunks/" title="Equity for Punks by BrewDog">Read more about <strong> Equity for Punks? </strong> </a><br />
-                If you are interested feel free to use my referral code, <b>R593156</b>
+                I'm an <strong> Equity Punk </strong>, find out more at <a href="https://efp.brewdog.com/" title="BrewDog Equity for Punks">BrewDog.</a> <br /><br />
               </p>
            <!-- Computers -->
             <h3 class="[ container-color-content_heading ]">
