@@ -56,7 +56,7 @@
                         </b-media>
                         <b-media tag="li" class="[ m-2 ml-4 ]">
                             <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />
-                            <a href="http://doristef.me/semester4/noroff-angularapp/" target="_blank" alt="Dashboard w/ multiple APIs, Semester 4, 2019">Dashboard - Multiple APIs, Angular --> Username: halldor, Password: doristef </a>
+                            <a href="http://doristef.me/semester4/noroff-angularapp/" target="_blank" alt="Dashboard w/ multiple APIs, Semester 4, 2019">Dashboard - Multiple APIs, Angular </a>
                         </b-media>
                         <b-media tag="li" class="[ m-2 ml-4 ]">
                             <font-awesome-icon icon="angle-double-right" size="1x" class="[ mr-2 ]" />

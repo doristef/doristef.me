@@ -15,7 +15,8 @@
               I was born in <strong>Akureyri, Iceland.</strong>
               I lived there until late <b>2013</b> when I was tipped off about an exciting <strong> job in Norway. </strong> <br />
               I started off commuting to work but soon I got bored of that, so I moved to <strong> Hamar </strong> with my family in <b>2015</b>. <br />
-              In <b>2016</b> my wife started studying at UiO, so we moved to <strong> Oslo. </strong>
+              In <b>2016</b> my wife started studying at UiO, so we moved to <strong> Oslo. </strong><br /><br />
+              Now I've finished my study for Frontend-Development at Noroff, a 2-year full-time study, and I'm ready for new adventures!<br />
             </p>
 
           </div>

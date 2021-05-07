@@ -70,7 +70,7 @@ export default {
           myPhoto: 'http://doristef.me/myPhoto.jpg',
           fullName: 'Halldór Valur Stefánsson',
           title: 'Frontend Developer',
-          paragraph1 : 'Hi there, <br /> I\'m Halldór and I\'m studying Frontend-Development at Noroff, <small><i>School of Technology and Digital Media.</i></small>',
+          paragraph1 : 'Hi there, <br /> I\'m Halldór and I\'m a Frontend-Developer.<br /> I studied Frontend-Development at Noroff, <small><i>School of Technology and Digital Media.</i></small> - A 2-year full-time study.',
         }
     }
   }
